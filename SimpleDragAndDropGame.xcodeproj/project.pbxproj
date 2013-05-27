@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F009C191753AC0B00502C7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F009C181753AC0B00502C7F /* UIKit.framework */; };
+		9F009C1B1753AC0B00502C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F009C1A1753AC0B00502C7F /* Foundation.framework */; };
+		9F009C1D1753AC0B00502C7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F009C1C1753AC0B00502C7F /* CoreGraphics.framework */; };
+		9F009C231753AC0B00502C7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F009C211753AC0B00502C7F /* InfoPlist.strings */; };
+		9F009C251753AC0B00502C7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F009C241753AC0B00502C7F /* main.m */; };
+		9F009C291753AC0B00502C7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F009C281753AC0B00502C7F /* AppDelegate.m */; };
+		9F009C2B1753AC0B00502C7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F009C2A1753AC0B00502C7F /* Default.png */; };
+		9F009C2D1753AC0B00502C7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F009C2C1753AC0B00502C7F /* Default@2x.png */; };
+		9F009C2F1753AC0B00502C7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F009C2E1753AC0B00502C7F /* Default-568h@2x.png */; };
+		9F009C321753AC0B00502C7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F009C311753AC0B00502C7F /* ViewController.m */; };
+		9F009C351753AC0B00502C7F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F009C331753AC0B00502C7F /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F009C151753AC0B00502C7F /* SimpleDragAndDropGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDragAndDropGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F009C181753AC0B00502C7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F009C1A1753AC0B00502C7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F009C1C1753AC0B00502C7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F009C201753AC0B00502C7F /* SimpleDragAndDropGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleDragAndDropGame-Info.plist"; sourceTree = "<group>"; };
+		9F009C221753AC0B00502C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F009C241753AC0B00502C7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F009C261753AC0B00502C7F /* SimpleDragAndDropGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleDragAndDropGame-Prefix.pch"; sourceTree = "<group>"; };
+		9F009C271753AC0B00502C7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F009C281753AC0B00502C7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F009C2A1753AC0B00502C7F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F009C2C1753AC0B00502C7F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F009C2E1753AC0B00502C7F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F009C301753AC0B00502C7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F009C311753AC0B00502C7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F009C341753AC0B00502C7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F009C121753AC0B00502C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F009C191753AC0B00502C7F /* UIKit.framework in Frameworks */,
+				9F009C1B1753AC0B00502C7F /* Foundation.framework in Frameworks */,
+				9F009C1D1753AC0B00502C7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F009C0C1753AC0B00502C7F = {
+			isa = PBXGroup;
+			children = (
+				9F009C1E1753AC0B00502C7F /* SimpleDragAndDropGame */,
+				9F009C171753AC0B00502C7F /* Frameworks */,
+				9F009C161753AC0B00502C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F009C161753AC0B00502C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F009C151753AC0B00502C7F /* SimpleDragAndDropGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F009C171753AC0B00502C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F009C181753AC0B00502C7F /* UIKit.framework */,
+				9F009C1A1753AC0B00502C7F /* Foundation.framework */,
+				9F009C1C1753AC0B00502C7F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F009C1E1753AC0B00502C7F /* SimpleDragAndDropGame */ = {
+			isa = PBXGroup;
+			children = (
+				9F009C271753AC0B00502C7F /* AppDelegate.h */,
+				9F009C281753AC0B00502C7F /* AppDelegate.m */,
+				9F009C301753AC0B00502C7F /* ViewController.h */,
+				9F009C311753AC0B00502C7F /* ViewController.m */,
+				9F009C331753AC0B00502C7F /* ViewController.xib */,
+				9F009C1F1753AC0B00502C7F /* Supporting Files */,
+			);
+			path = SimpleDragAndDropGame;
+			sourceTree = "<group>";
+		};
+		9F009C1F1753AC0B00502C7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F009C201753AC0B00502C7F /* SimpleDragAndDropGame-Info.plist */,
+				9F009C211753AC0B00502C7F /* InfoPlist.strings */,
+				9F009C241753AC0B00502C7F /* main.m */,
+				9F009C261753AC0B00502C7F /* SimpleDragAndDropGame-Prefix.pch */,
+				9F009C2A1753AC0B00502C7F /* Default.png */,
+				9F009C2C1753AC0B00502C7F /* Default@2x.png */,
+				9F009C2E1753AC0B00502C7F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F009C141753AC0B00502C7F /* SimpleDragAndDropGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F009C381753AC0B00502C7F /* Build configuration list for PBXNativeTarget "SimpleDragAndDropGame" */;
+			buildPhases = (
+				9F009C111753AC0B00502C7F /* Sources */,
+				9F009C121753AC0B00502C7F /* Frameworks */,
+				9F009C131753AC0B00502C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDragAndDropGame;
+			productName = SimpleDragAndDropGame;
+			productReference = 9F009C151753AC0B00502C7F /* SimpleDragAndDropGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F009C0D1753AC0B00502C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "ninja chen";
+			};
+			buildConfigurationList = 9F009C101753AC0B00502C7F /* Build configuration list for PBXProject "SimpleDragAndDropGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F009C0C1753AC0B00502C7F;
+			productRefGroup = 9F009C161753AC0B00502C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F009C141753AC0B00502C7F /* SimpleDragAndDropGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F009C131753AC0B00502C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F009C231753AC0B00502C7F /* InfoPlist.strings in Resources */,
+				9F009C2B1753AC0B00502C7F /* Default.png in Resources */,
+				9F009C2D1753AC0B00502C7F /* Default@2x.png in Resources */,
+				9F009C2F1753AC0B00502C7F /* Default-568h@2x.png in Resources */,
+				9F009C351753AC0B00502C7F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F009C111753AC0B00502C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F009C251753AC0B00502C7F /* main.m in Sources */,
+				9F009C291753AC0B00502C7F /* AppDelegate.m in Sources */,
+				9F009C321753AC0B00502C7F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F009C211753AC0B00502C7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F009C221753AC0B00502C7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F009C331753AC0B00502C7F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F009C341753AC0B00502C7F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F009C361753AC0B00502C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F009C371753AC0B00502C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F009C391753AC0B00502C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragAndDropGame/SimpleDragAndDropGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragAndDropGame/SimpleDragAndDropGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F009C3A1753AC0B00502C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleDragAndDropGame/SimpleDragAndDropGame-Prefix.pch";
+				INFOPLIST_FILE = "SimpleDragAndDropGame/SimpleDragAndDropGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F009C101753AC0B00502C7F /* Build configuration list for PBXProject "SimpleDragAndDropGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F009C361753AC0B00502C7F /* Debug */,
+				9F009C371753AC0B00502C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F009C381753AC0B00502C7F /* Build configuration list for PBXNativeTarget "SimpleDragAndDropGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F009C391753AC0B00502C7F /* Debug */,
+				9F009C3A1753AC0B00502C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F009C0D1753AC0B00502C7F /* Project object */;
+}
